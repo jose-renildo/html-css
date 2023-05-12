@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'work sans', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    /* 16px é igual a 1em */
+    font-weight: normal;
+    }
+
+h1{
+    /* font-style: italic;font-weight: bolder;
+    font-size: 3em;
+    font-family:'work sans', sans-serif;    
+     */
+    /* REPRESENTAÇÃO DO H1 COM SHORTHAND */
+
+    font: italic bolder 3em 'work sans', sans-serif;
+} 
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-style: italic;
+    text-decoration: underline;
+}

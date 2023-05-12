@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        @charset "UTF-8";
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2b76e;
+            margin: 0px;
+        }
+
+       header{
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px;
+       }  
+           
+        nav{   
+            background-color: #848484;
+            padding: 3px;
+            text-align: right;  
+            box-shadow: 2px 2px 4px 1px rgb(0, 0, 0, 0.315);      
+        }
+
+        nav > a{
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+            
+        }
+
+        nav > a:hover{
+            color: darkgreen;
+        }
+
+        main{
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.823);
+        }
+
+        article{
+            background-color: #c6c6c6;
+        }
+
+        article > aside{
+            background-color: #919191;
+            color: #000;
+            margin: 0px;
+        }
+
+        footer{
+            color: #fff;
+            background-color: #000;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            background-color: #fff;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin-top: 10px;
+            margin: 10px auto ;
+            box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.559);
+        }
+
+    </style>
+
+    <title>Grouping Tags</title>
+</head>
+<body>
+    
+    <header>
+
+        <h1>Minha Logo</h1>
+                
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Loja</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>
+                Esportes, Política e Tecnologia. 
+            </p>
+        </section>
+
+        <section id="noticias">
+            <article>
+
+                <h1>Notícias Sobre o Brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quasi vitae quod optio placeat perspiciatis rem soluta deleniti pariatur sit eveniet, consequatur inventore impedit aspernatur! Saepe vitae soluta veritatis sed.</p>
+
+                <aside>Artigo escrito por JROT.</aside>
+            </article>
+        </section>
+
+        <section id="tecnologia">
+
+            <article>
+                <h1>Tecnologia</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magnam nemo? Laudantium dolores repudiandae consequatur sapiente! Eaque culpa numquam repudiandae! Sit consequuntur rem amet maxime perferendis accusamus est nemo nisi.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <div id="bola"></div>
+
+    <footer>
+        <p>Desenvolvido por JROT</p>
+    </footer>
+
+</body>
+</html>
