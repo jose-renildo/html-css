@@ -196,7 +196,7 @@ aside > h3{
 
 aside > ul{
     list-style-position: inside;
-    columns: 2;
+    columns: 2;    
     list-style-type: '\2714\00A0\00A0'; /*O 2714, é pego no EMOJIPEDIA - Cada 00A0, é um espaço entre o check e a lista*/
 }
 
