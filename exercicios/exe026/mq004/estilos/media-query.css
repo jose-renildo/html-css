@@ -51,7 +51,7 @@ GRANDES TELAS: ACIMA DE 1200PX
     } 
 
     main{
-        width: 400px;
+        width: 80vh;
     }
 
     img#fone{display: none;}
@@ -67,7 +67,7 @@ GRANDES TELAS: ACIMA DE 1200PX
     }
 
     main{
-        width: 500px;
+        width: 65vw;
     }
 
     img#fone{display: none;}
@@ -83,7 +83,7 @@ GRANDES TELAS: ACIMA DE 1200PX
     }
 
     main{
-        width: 700px;
+        width: 90vw;
     }
 
     img#fone{display: none;}
