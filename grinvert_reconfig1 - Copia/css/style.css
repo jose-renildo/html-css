@@ -242,6 +242,49 @@ body{
 }
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
 @media only screen and (max-width: 640px) {
+
+	
+		span#burguer{
+			/* background-color: rgb(48, 48, 48);*/
+			 width: 50vw;
+			 display: block;
+			 color: #fff;
+			 text-align: center;
+			 padding: 10px;
+			 cursor: pointer;
+			 margin: auto;
+		 }
+		 
+		 span#burguer:hover{
+			 background-color: rgb(0, 152, 67);
+			 color: #fff;
+		 }
+		 
+		 menu{
+			 display: none; 
+		 }
+		 
+		 menu > ul{
+			 list-style-type: none;
+		 }
+		 
+		 menu > ul > li > a{
+			 display: block;
+			 padding: 10px;
+			 text-decoration: none;
+			 text-align: center;
+			 background-color: rgb(87, 87, 87);
+			 color: #fff;    
+			 border-top: 2px solid rgb(154, 154, 154);
+			 width: 50vw;
+			 margin: auto;
+		 }
+		 
+		 menu > ul > li > a:hover{
+			 background-color: rgb(0, 152, 67);
+		 }
+		 
+	
 	
 	.wrap{
 		width:95%;
@@ -762,25 +805,6 @@ body{
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
 
 @media only screen and (max-width: 640px) and (min-width: 480px) {
-
-
-
-	span#burguer{
-		/* background-color: rgb(48, 48, 48);*/
-		 width: 50vw;
-		 display: block;
-		 color: #000;
-		 text-align: center;
-		 padding: 10px;
-		 cursor: pointer;
-		 margin: auto;
-	 }
-	 
-	 span#burguer:hover{
-		 background-color: rgb(0, 152, 67);
-		 color: #fff;
-	 }
-
 
 
 	.wrap{
