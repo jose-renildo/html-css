@@ -130,10 +130,13 @@ article#b-v{
 }
 
 section#img1{
+    float: left;
     width: 80vw;
     display: block;
     text-align: center;
     margin: auto;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 
 section#img2{
