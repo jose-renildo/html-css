@@ -136,11 +136,13 @@ section#img1{
     margin: auto;
 }
 
-article > img#img1{
+section#img2{
     width: 80vw;
-    position:relative;
-
+    display: block;
+    text-align: center;
+    margin: auto;
 }
+
 
 article > p{
     text-indent: 20px;
