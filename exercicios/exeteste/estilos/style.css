@@ -127,8 +127,10 @@ article{
 
 article#b-v{
    margin-top: 10px;
-  
+}
 
+article#b-v > img{
+    width: 80vw;
 }
 
 article > p{
